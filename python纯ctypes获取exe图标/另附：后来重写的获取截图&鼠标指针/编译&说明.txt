@@ -1,0 +1,7 @@
+使用方法写在example.py里了。
+_mss_windows是砍了大部分功能的mss.windows模块，
+    留下了其中对winapi的定义。
+
+编译：
+gcc/clang _c_grab.c -m64 -o _c_grab_x64.dll -shared -O2
+gcc/clang _c_grab.c -m32 -o _c_grab_x86.dll -shared -O2
